@@ -4,22 +4,38 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dataforger"
-version = "0.1.1"
+version = "0.1.2"
 description = "Generate fake data from Python or the command line."
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
+authors = [
+    { name = "Karmanshi Shrivastava", email = "karmanshishrivastava20@gmail.com" },
+]
+keywords = ["fake-data", "data-generation", "csv", "json", "testing", "cli"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Environment :: Console",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Utilities",
 ]
 
 [project.scripts]
 dataforger = "dataforger.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/karmanshi/dataforger"
+Repository = "https://github.com/karmanshi/dataforger"
+Issues = "https://github.com/karmanshi/dataforger/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
