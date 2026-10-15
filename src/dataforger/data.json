@@ -1,0 +1,78 @@
+{
+  "first_names": [
+    "Alex",
+    "Avery",
+    "Casey",
+    "Drew",
+    "Jordan",
+    "Morgan",
+    "Quinn",
+    "Riley",
+    "Sam",
+    "Taylor"
+  ],
+  "last_names": [
+    "Anderson",
+    "Bennett",
+    "Chen",
+    "Diaz",
+    "Garcia",
+    "Kim",
+    "Morgan",
+    "Patel",
+    "Smith",
+    "Wilson"
+  ],
+  "streets": [
+    "Cedar",
+    "Highland",
+    "Lake",
+    "Maple",
+    "Oak",
+    "Park",
+    "Pine",
+    "River"
+  ],
+  "street_types": [
+    "Ave",
+    "Blvd",
+    "Lane",
+    "Road",
+    "Street"
+  ],
+  "companies": [
+    "Acme",
+    "Bluebird",
+    "Cedar",
+    "Evergreen",
+    "Northstar",
+    "Pioneer",
+    "Silverline",
+    "Summit"
+  ],
+  "company_suffixes": [
+    "Group",
+    "Labs",
+    "Partners",
+    "Solutions",
+    "Studio"
+  ],
+  "email_domains": [
+    "example.com",
+    "example.net",
+    "example.org",
+    "example.ai",
+    "dummy.com",
+    "dummy.net",
+    "dummy.org",
+    "dummy.ai",
+    "fakedata.com",
+    "fakedata.net",
+    "fakedata.org",
+    "fakedata.ai",
+    "dummydata.com",
+    "dummydata.net",
+    "dummydata.org",
+    "dummydata.ai"
+  ]
+}
